@@ -40,6 +40,13 @@ void setup()
   Serial.begin(9600);
 }
 
+
+/* Loop
+   En cada ciclo de execución:
+   - Lectura do pulsador.
+   - Activación ou desactivación do motor.
+   - Pequena espera antes de seguinte ciclo.
+*/
 void loop()
 {
   //Comprobar se o pulsador está activado:
